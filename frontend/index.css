@@ -1,0 +1,200 @@
+html{
+  margin:0;
+  padding:0;
+}
+body{
+  min-width:100vw;
+  min-height: 100vh;
+  overflow-x: hidden;  
+}
+.main{
+    
+    margin:0 auto;
+    overflow:hidden;
+    background:rgb(237, 237, 237);
+}
+.centralized{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  min-height: 100vh;
+    float:left;
+    width:100%;
+    margin-right:-10px;
+}
+.content-inner{
+    margin-right:10px;
+}
+.sidebar{
+    background:red;
+    float:right;
+    width:200px;
+}
+.menu{
+    width:100%;
+    background: #07415a;
+}
+.menu ul{
+    margin:0; 
+    padding:0;
+}
+.menu ul li{
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    margin:0; 
+    padding:0;
+}
+.menu ul li a{
+    display:block;
+    padding:20px;
+    color:#fff;
+}
+
+.footer{
+    width:100%;
+    background:#07415a;
+    text-align:center;
+    color:#fff
+}
+
+.main .menu h2{
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.header{
+padding: 10px;
+background: #fff;
+color: black;
+border-bottom: 1px solid #07415a;
+}
+
+li a:hover, li.selected{
+background-color: #1782B0;
+}
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+a.nounderline:link 
+{ 
+text-decoration:none; 
+} 
+
+
+
+
+.btn{
+    font-family:arial;
+    font-size:14px;
+    text-transform:uppercase;
+    font-weight:700;
+    border:none;
+    padding:5px;
+    cursor:pointer;  
+    display:inline-block;
+    text-decoration:none;
+    margin: 5% 0;
+    width: 30%;
+  }
+  .btn-button{
+    background:#07415a;
+    color:#fff;
+    
+  }
+  
+  .btn-button:hover{
+    background:#07415a;
+    color:#000;
+    
+  }
+  
+  .btn-button:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+  
+ 
+
+  th, td {
+    padding: 10px;
+    border: 1px solid #666;
+  }
+
+  input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+   }
+
+   .campos {
+    width: 30%;
+    margin-left: 0px;
+   }
+
+   .descricao{
+    line-height:1.6;
+   }
+
+   #barra {
+    margin: 20px;
+    width: 400px;
+    height: 20px;
+    position: relative;
+  }
+
+  #loader {
+    width: 100px;
+    display:none;
+}
+
+.nome-campo{
+  width: 100%; 
+  padding: 5px;
+  color: black;
+  border-bottom: 1px solid black;
+  }
+
+.nome-campoID{
+    width: 100%;
+    text-align: left; 
+    padding: 5px;
+    color: black;
+    border-bottom: 1px solid black;
+  }
+
+  .espacamento{
+    padding: 75px;
+    } 
+    
+  .margem-200{
+    margin-left: 200px;
+  }
+
+
+
+  #instructor {
+    text-align: center;
+    padding:10px;
+    background-color:#fff;
+    margin: 0px 0;
+    margin-left: 10px;
+    margin-right: 20px;
+   }
+
+  
+@media screen and (max-width: 700px) {
+    .sidebar, .content-inner, .content{
+        float: none;
+        width: 100%;
+        margin-right:0;
+    }
+}
